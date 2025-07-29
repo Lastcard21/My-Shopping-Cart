@@ -1,6 +1,6 @@
 import { ShoppingCartIcon, XIcon} from 'lucide-react'
 import React, { useEffect, useState } from 'react' 
-import { useCart } from '../context/cartContext'
+import { useCart } from '../context/CartContext'
 import CartItem from './CartItem'
 import { formatCurrency } from '../utilities/formatCurrency'
 
